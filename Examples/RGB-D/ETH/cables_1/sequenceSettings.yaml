@@ -1,0 +1,9 @@
+%YAML:1.0 
+sequenceSettings:
+   sequenceName: cables_1
+   cameraYAML: camerasETH/eth.yaml
+
+RGBD_TUM_dataset:
+   numRGB: 1180 
+   numDepth: 1180 
+   associationsTxt: associated.txt

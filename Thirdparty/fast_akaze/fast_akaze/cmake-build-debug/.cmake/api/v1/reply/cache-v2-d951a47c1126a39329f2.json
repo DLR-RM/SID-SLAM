@@ -1,0 +1,1471 @@
+{
+	"entries" : 
+	[
+		{
+			"name" : "CMAKE_ADDR2LINE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/addr2line"
+		},
+		{
+			"name" : "CMAKE_AR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/ar"
+		},
+		{
+			"name" : "CMAKE_BUILD_TYPE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Choose the type of build, options are: None Debug Release RelWithDebInfo MinSizeRel ..."
+				}
+			],
+			"type" : "STRING",
+			"value" : "Debug"
+		},
+		{
+			"name" : "CMAKE_CACHEFILE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "This is the directory where this CMakeCache.txt was created"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/home/giub_ri/packages/sidslam/Thirdparty/fast_akaze/fast_akaze/cmake-build-debug"
+		},
+		{
+			"name" : "CMAKE_CACHE_MAJOR_VERSION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Major version of cmake used to create the current loaded cache"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "3"
+		},
+		{
+			"name" : "CMAKE_CACHE_MINOR_VERSION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Minor version of cmake used to create the current loaded cache"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "27"
+		},
+		{
+			"name" : "CMAKE_CACHE_PATCH_VERSION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Patch version of cmake used to create the current loaded cache"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "8"
+		},
+		{
+			"name" : "CMAKE_COLOR_DIAGNOSTICS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable colored diagnostics throughout."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CMAKE_COMMAND",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to CMake executable."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/opt/CLion/clion-2023.3.2/bin/cmake/linux/x64/bin/cmake"
+		},
+		{
+			"name" : "CMAKE_CPACK_COMMAND",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to cpack program executable."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/opt/CLion/clion-2023.3.2/bin/cmake/linux/x64/bin/cpack"
+		},
+		{
+			"name" : "CMAKE_CTEST_COMMAND",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to ctest program executable."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/opt/CLion/clion-2023.3.2/bin/cmake/linux/x64/bin/ctest"
+		},
+		{
+			"name" : "CMAKE_CXX_COMPILER",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "CXX compiler"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/g++-7"
+		},
+		{
+			"name" : "CMAKE_CXX_COMPILER_AR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/gcc-ar-7"
+		},
+		{
+			"name" : "CMAKE_CXX_COMPILER_RANLIB",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/gcc-ranlib-7"
+		},
+		{
+			"name" : "CMAKE_CXX_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the CXX compiler during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-DTIXML_USE_STL -m64 -O2 -g -pthread -march=x86-64 -mfpmath=sse -msahf -mfxsr -mcx16 -mmmx -msse -msse2 -msse3 -mssse3 -msse4 -mpopcnt -pthread -march=x86-64 -mfpmath=sse -msahf -mfxsr -mcx16 -mmmx -msse -msse2 -msse3 -mssse3 -msse4 -mpopcnt"
+		},
+		{
+			"name" : "CMAKE_CXX_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the CXX compiler during DEBUG builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-g -O0"
+		},
+		{
+			"name" : "CMAKE_CXX_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the CXX compiler during MINSIZEREL builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-Os -DNDEBUG"
+		},
+		{
+			"name" : "CMAKE_CXX_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the CXX compiler during RELEASE builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-O3 -DNDEBUG"
+		},
+		{
+			"name" : "CMAKE_CXX_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the CXX compiler during RELWITHDEBINFO builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-O2 -g -DNDEBUG"
+		},
+		{
+			"name" : "CMAKE_C_COMPILER",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "C compiler"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/gcc-7"
+		},
+		{
+			"name" : "CMAKE_C_COMPILER_AR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/gcc-ar-7"
+		},
+		{
+			"name" : "CMAKE_C_COMPILER_RANLIB",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/gcc-ranlib-7"
+		},
+		{
+			"name" : "CMAKE_C_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the C compiler during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-DTIXML_USE_STL -m64 -O2 -g -pthread -march=x86-64 -mfpmath=sse -msahf -mfxsr -mcx16 -mmmx -msse -msse2 -msse3 -mssse3 -msse4 -mpopcnt -pthread -march=x86-64 -mfpmath=sse -msahf -mfxsr -mcx16 -mmmx -msse -msse2 -msse3 -mssse3 -msse4 -mpopcnt"
+		},
+		{
+			"name" : "CMAKE_C_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the C compiler during DEBUG builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-g -O0"
+		},
+		{
+			"name" : "CMAKE_C_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the C compiler during MINSIZEREL builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-Os -DNDEBUG"
+		},
+		{
+			"name" : "CMAKE_C_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the C compiler during RELEASE builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-O3 -DNDEBUG"
+		},
+		{
+			"name" : "CMAKE_C_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the C compiler during RELWITHDEBINFO builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-O2 -g -DNDEBUG"
+		},
+		{
+			"name" : "CMAKE_DLLTOOL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "CMAKE_DLLTOOL-NOTFOUND"
+		},
+		{
+			"name" : "CMAKE_EXECUTABLE_FORMAT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Executable file format"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "ELF"
+		},
+		{
+			"name" : "CMAKE_EXE_LINKER_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-F/volume/conan_cache/giub_ri/.conan/data/python3-dist/2.2.1/tools/stable/package/f32b3b50dd563a02df1b35e98c90cec36423d368/Frameworks -m64 -L/volume/conan_cache/giub_ri/.conan/data/pangolin/0.9.1/3rdparty/stable/package/6c8cbd78feb3c7902eee79aede57a597ead6e2b1/lib -L/volume/conan_cache/giub_ri/.conan/data/ceres-solver/2.1.0/3rdparty/stable/package/f1b6a847b0b5e17b6ad36d16106b2a67705d012c/lib -L/volume/conan_cache/giub_ri/.conan/data/visual-lcd/1.5.0/moro/snapshot/package/c51c4ed812e1492d51cff3eb5e95ebc37d518861/lib -L/volume/conan_cache/giub_ri/.conan/data/ros_core/1.4.1/3rdparty/stable/package/dfc56f6663a878aad7ca79ac3af67159360b6d1b/lib -L/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib -L/volume/conan_cache/giub_ri/.conan/data/boost/1.66.0/3rdparty/stable/package/0951097891faa9d39de5771af51dcfcb1d49dfdc/lib -L/volume/conan_cache/giub_ri/.conan/data/console_bridge/0.4.4/3rdparty/stable/package/a059740f98a1247ec031a04c0fc4bf6c5a67a0fa/lib -L/volume/conan_cache/giub_ri/.conan/data/tinyxml/2.6.2/3rdparty/stable/package/1c6d59c8485ce7ba010ce9f8f3b718e1743ee65e/lib -L/volume/conan_cache/giub_ri/.conan/data/lz4/1.9.2/3rdparty/stable/package/7566a2e36235aaa167cd309b32e63e74379fa88a/lib -L/volume/conan_cache/giub_ri/.conan/data/log4cxx/0.10.0/3rdparty/stable/package/7566a2e36235aaa167cd309b32e63e74379fa88a/lib -L/volume/conan_cache/giub_ri/.conan/data/rospkg/1.4.0/pypi/stable/package/9617b349fafb3f9addb24517a8678125c3405ab1/lib -L/volume/conan_cache/giub_ri/.conan/data/poco/1.9.4/3rdparty/stable/package/cadd63bbdaec45074f45011064cede7725fb0d8e/lib -L/volume/conan_cache/giub_ri/.conan/data/defusedxml/0.6.0/pypi/stable/package/5eda30965d7a60fa3a1033f7940c94dc73878702/lib -L/volume/conan_cache/giub_ri/.conan/data/pycryptodomex/3.9.8/pypi/stable/package/5eda30965d7a60fa3a1033f7940c94dc73878702/lib -L/volume/conan_cache/giub_ri/.conan/data/gnupg/2.3.1/pypi/stable/package/5eda30965d7a60fa3a1033f7940c94dc73878702/lib -L/volume/conan_cache/giub_ri/.conan/data/catkin/0.8.1/3rdparty/stable/package/f3ba25740b99839924b50cc790bd62e6ef5124bf/lib -L/volume/conan_cache/giub_ri/.conan/data/eigen/3.3.7/3rdparty/stable/package/66732ee6185ec10ba26fe5f063a64aba30f472ea/lib -L/volume/conan_cache/giub_ri/.conan/data/glog/0.4.0/3rdparty/stable/package/cadd63bbdaec45074f45011064cede7725fb0d8e/lib -L/volume/conan_cache/giub_ri/.conan/data/gflags/2.2.2/3rdparty/stable/package/e096be2ccc3d13b81e10eae858042b5e6734f08c/lib -L/volume/conan_cache/giub_ri/.conan/data/openexr/2.5.3/3rdparty/stable/package/72efab4638fb46dbb3bb6c6e83c29693282f1981/lib -L/volume/conan_cache/giub_ri/.conan/data/tbb/2019.8.0/3rdparty/stable/package/3b9e4c5f9dd918c27eedc8a5e14627e1abc0cd76/lib -L/volume/conan_cache/giub_ri/.conan/data/gtest/1.10.0/3rdparty/stable/package/36f4faa8f490b828f0bb0af88ed9ae0a6a12248f/lib -L/volume/conan_cache/giub_ri/.conan/data/catkin-tools/0.9.0/pypi/stable/package/e19ebe9a9867c1c00eb19479adaba9d411102a8c/lib -L/volume/conan_cache/giub_ri/.conan/data/catkin-pkg/1.0.0/pypi/stable/package/5eda30965d7a60fa3a1033f7940c94dc73878702/lib -L/volume/conan_cache/giub_ri/.conan/data/osrf-pycommon/2.0.2/pypi/stable/package/5eda30965d7a60fa3a1033f7940c94dc73878702/lib -L/opt/python/osl155-x86_64/python3/stable/2.2.1/lib"
+		},
+		{
+			"name" : "CMAKE_EXE_LINKER_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during DEBUG builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_EXE_LINKER_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during MINSIZEREL builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_EXE_LINKER_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during RELEASE builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during RELWITHDEBINFO builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_EXPORT_COMPILE_COMMANDS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable/Disable output of compile commands during generation."
+				}
+			],
+			"type" : "BOOL",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_EXTRA_GENERATOR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Name of external makefile project generator."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_FIND_PACKAGE_REDIRECTS_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake."
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/giub_ri/packages/sidslam/Thirdparty/fast_akaze/fast_akaze/cmake-build-debug/CMakeFiles/pkgRedirects"
+		},
+		{
+			"name" : "CMAKE_GENERATOR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Name of generator."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "Ninja"
+		},
+		{
+			"name" : "CMAKE_GENERATOR_INSTANCE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Generator instance identifier."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_GENERATOR_PLATFORM",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Name of generator platform."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_GENERATOR_TOOLSET",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Name of generator toolset."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_HAVE_LIBC_PTHREAD",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Test CMAKE_HAVE_LIBC_PTHREAD"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "CMAKE_HOME_DIRECTORY",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Source directory with the top level CMakeLists.txt file for this project"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/home/giub_ri/packages/sidslam/Thirdparty/fast_akaze/fast_akaze"
+		},
+		{
+			"name" : "CMAKE_INSTALL_PREFIX",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Install path prefix, prepended onto install directories."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/local"
+		},
+		{
+			"name" : "CMAKE_INSTALL_SO_NO_EXE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Install .so files without execute permission."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "0"
+		},
+		{
+			"name" : "CMAKE_LINKER",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/ld"
+		},
+		{
+			"name" : "CMAKE_MAKE_PROGRAM",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "No help, variable specified on the command line."
+				}
+			],
+			"type" : "UNINITIALIZED",
+			"value" : "/opt/CLion/clion-2023.3.2/bin/ninja/linux/x64/ninja"
+		},
+		{
+			"name" : "CMAKE_MODULE_LINKER_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of modules during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-F/volume/conan_cache/giub_ri/.conan/data/python3-dist/2.2.1/tools/stable/package/f32b3b50dd563a02df1b35e98c90cec36423d368/Frameworks -m64 -L/volume/conan_cache/giub_ri/.conan/data/pangolin/0.9.1/3rdparty/stable/package/6c8cbd78feb3c7902eee79aede57a597ead6e2b1/lib -L/volume/conan_cache/giub_ri/.conan/data/ceres-solver/2.1.0/3rdparty/stable/package/f1b6a847b0b5e17b6ad36d16106b2a67705d012c/lib -L/volume/conan_cache/giub_ri/.conan/data/visual-lcd/1.5.0/moro/snapshot/package/c51c4ed812e1492d51cff3eb5e95ebc37d518861/lib -L/volume/conan_cache/giub_ri/.conan/data/ros_core/1.4.1/3rdparty/stable/package/dfc56f6663a878aad7ca79ac3af67159360b6d1b/lib -L/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib -L/volume/conan_cache/giub_ri/.conan/data/boost/1.66.0/3rdparty/stable/package/0951097891faa9d39de5771af51dcfcb1d49dfdc/lib -L/volume/conan_cache/giub_ri/.conan/data/console_bridge/0.4.4/3rdparty/stable/package/a059740f98a1247ec031a04c0fc4bf6c5a67a0fa/lib -L/volume/conan_cache/giub_ri/.conan/data/tinyxml/2.6.2/3rdparty/stable/package/1c6d59c8485ce7ba010ce9f8f3b718e1743ee65e/lib -L/volume/conan_cache/giub_ri/.conan/data/lz4/1.9.2/3rdparty/stable/package/7566a2e36235aaa167cd309b32e63e74379fa88a/lib -L/volume/conan_cache/giub_ri/.conan/data/log4cxx/0.10.0/3rdparty/stable/package/7566a2e36235aaa167cd309b32e63e74379fa88a/lib -L/volume/conan_cache/giub_ri/.conan/data/rospkg/1.4.0/pypi/stable/package/9617b349fafb3f9addb24517a8678125c3405ab1/lib -L/volume/conan_cache/giub_ri/.conan/data/poco/1.9.4/3rdparty/stable/package/cadd63bbdaec45074f45011064cede7725fb0d8e/lib -L/volume/conan_cache/giub_ri/.conan/data/defusedxml/0.6.0/pypi/stable/package/5eda30965d7a60fa3a1033f7940c94dc73878702/lib -L/volume/conan_cache/giub_ri/.conan/data/pycryptodomex/3.9.8/pypi/stable/package/5eda30965d7a60fa3a1033f7940c94dc73878702/lib -L/volume/conan_cache/giub_ri/.conan/data/gnupg/2.3.1/pypi/stable/package/5eda30965d7a60fa3a1033f7940c94dc73878702/lib -L/volume/conan_cache/giub_ri/.conan/data/catkin/0.8.1/3rdparty/stable/package/f3ba25740b99839924b50cc790bd62e6ef5124bf/lib -L/volume/conan_cache/giub_ri/.conan/data/eigen/3.3.7/3rdparty/stable/package/66732ee6185ec10ba26fe5f063a64aba30f472ea/lib -L/volume/conan_cache/giub_ri/.conan/data/glog/0.4.0/3rdparty/stable/package/cadd63bbdaec45074f45011064cede7725fb0d8e/lib -L/volume/conan_cache/giub_ri/.conan/data/gflags/2.2.2/3rdparty/stable/package/e096be2ccc3d13b81e10eae858042b5e6734f08c/lib -L/volume/conan_cache/giub_ri/.conan/data/openexr/2.5.3/3rdparty/stable/package/72efab4638fb46dbb3bb6c6e83c29693282f1981/lib -L/volume/conan_cache/giub_ri/.conan/data/tbb/2019.8.0/3rdparty/stable/package/3b9e4c5f9dd918c27eedc8a5e14627e1abc0cd76/lib -L/volume/conan_cache/giub_ri/.conan/data/gtest/1.10.0/3rdparty/stable/package/36f4faa8f490b828f0bb0af88ed9ae0a6a12248f/lib -L/volume/conan_cache/giub_ri/.conan/data/catkin-tools/0.9.0/pypi/stable/package/e19ebe9a9867c1c00eb19479adaba9d411102a8c/lib -L/volume/conan_cache/giub_ri/.conan/data/catkin-pkg/1.0.0/pypi/stable/package/5eda30965d7a60fa3a1033f7940c94dc73878702/lib -L/volume/conan_cache/giub_ri/.conan/data/osrf-pycommon/2.0.2/pypi/stable/package/5eda30965d7a60fa3a1033f7940c94dc73878702/lib -L/opt/python/osl155-x86_64/python3/stable/2.2.1/lib"
+		},
+		{
+			"name" : "CMAKE_MODULE_LINKER_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of modules during DEBUG builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_MODULE_LINKER_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of modules during MINSIZEREL builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_MODULE_LINKER_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of modules during RELEASE builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of modules during RELWITHDEBINFO builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_NM",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/nm"
+		},
+		{
+			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "number of local generators"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "2"
+		},
+		{
+			"name" : "CMAKE_OBJCOPY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/objcopy"
+		},
+		{
+			"name" : "CMAKE_OBJDUMP",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/objdump"
+		},
+		{
+			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Platform information initialized"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "CMAKE_PREFIX_PATH",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "No help, variable specified on the command line."
+				}
+			],
+			"type" : "UNINITIALIZED",
+			"value" : "/tmp/giub_ri/cissy/run/493481a4-dbc8-4c59-ab8b-244d0d267662/process/from_conanfile"
+		},
+		{
+			"name" : "CMAKE_PROJECT_DESCRIPTION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_PROJECT_HOMEPAGE_URL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_PROJECT_NAME",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "fast_akaze"
+		},
+		{
+			"name" : "CMAKE_RANLIB",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/ranlib"
+		},
+		{
+			"name" : "CMAKE_READELF",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/readelf"
+		},
+		{
+			"name" : "CMAKE_ROOT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to CMake installation."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/opt/CLion/clion-2023.3.2/bin/cmake/linux/x64/share/cmake-3.27"
+		},
+		{
+			"name" : "CMAKE_SHARED_LINKER_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of shared libraries during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-F/volume/conan_cache/giub_ri/.conan/data/python3-dist/2.2.1/tools/stable/package/f32b3b50dd563a02df1b35e98c90cec36423d368/Frameworks -m64 -L/volume/conan_cache/giub_ri/.conan/data/pangolin/0.9.1/3rdparty/stable/package/6c8cbd78feb3c7902eee79aede57a597ead6e2b1/lib -L/volume/conan_cache/giub_ri/.conan/data/ceres-solver/2.1.0/3rdparty/stable/package/f1b6a847b0b5e17b6ad36d16106b2a67705d012c/lib -L/volume/conan_cache/giub_ri/.conan/data/visual-lcd/1.5.0/moro/snapshot/package/c51c4ed812e1492d51cff3eb5e95ebc37d518861/lib -L/volume/conan_cache/giub_ri/.conan/data/ros_core/1.4.1/3rdparty/stable/package/dfc56f6663a878aad7ca79ac3af67159360b6d1b/lib -L/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib -L/volume/conan_cache/giub_ri/.conan/data/boost/1.66.0/3rdparty/stable/package/0951097891faa9d39de5771af51dcfcb1d49dfdc/lib -L/volume/conan_cache/giub_ri/.conan/data/console_bridge/0.4.4/3rdparty/stable/package/a059740f98a1247ec031a04c0fc4bf6c5a67a0fa/lib -L/volume/conan_cache/giub_ri/.conan/data/tinyxml/2.6.2/3rdparty/stable/package/1c6d59c8485ce7ba010ce9f8f3b718e1743ee65e/lib -L/volume/conan_cache/giub_ri/.conan/data/lz4/1.9.2/3rdparty/stable/package/7566a2e36235aaa167cd309b32e63e74379fa88a/lib -L/volume/conan_cache/giub_ri/.conan/data/log4cxx/0.10.0/3rdparty/stable/package/7566a2e36235aaa167cd309b32e63e74379fa88a/lib -L/volume/conan_cache/giub_ri/.conan/data/rospkg/1.4.0/pypi/stable/package/9617b349fafb3f9addb24517a8678125c3405ab1/lib -L/volume/conan_cache/giub_ri/.conan/data/poco/1.9.4/3rdparty/stable/package/cadd63bbdaec45074f45011064cede7725fb0d8e/lib -L/volume/conan_cache/giub_ri/.conan/data/defusedxml/0.6.0/pypi/stable/package/5eda30965d7a60fa3a1033f7940c94dc73878702/lib -L/volume/conan_cache/giub_ri/.conan/data/pycryptodomex/3.9.8/pypi/stable/package/5eda30965d7a60fa3a1033f7940c94dc73878702/lib -L/volume/conan_cache/giub_ri/.conan/data/gnupg/2.3.1/pypi/stable/package/5eda30965d7a60fa3a1033f7940c94dc73878702/lib -L/volume/conan_cache/giub_ri/.conan/data/catkin/0.8.1/3rdparty/stable/package/f3ba25740b99839924b50cc790bd62e6ef5124bf/lib -L/volume/conan_cache/giub_ri/.conan/data/eigen/3.3.7/3rdparty/stable/package/66732ee6185ec10ba26fe5f063a64aba30f472ea/lib -L/volume/conan_cache/giub_ri/.conan/data/glog/0.4.0/3rdparty/stable/package/cadd63bbdaec45074f45011064cede7725fb0d8e/lib -L/volume/conan_cache/giub_ri/.conan/data/gflags/2.2.2/3rdparty/stable/package/e096be2ccc3d13b81e10eae858042b5e6734f08c/lib -L/volume/conan_cache/giub_ri/.conan/data/openexr/2.5.3/3rdparty/stable/package/72efab4638fb46dbb3bb6c6e83c29693282f1981/lib -L/volume/conan_cache/giub_ri/.conan/data/tbb/2019.8.0/3rdparty/stable/package/3b9e4c5f9dd918c27eedc8a5e14627e1abc0cd76/lib -L/volume/conan_cache/giub_ri/.conan/data/gtest/1.10.0/3rdparty/stable/package/36f4faa8f490b828f0bb0af88ed9ae0a6a12248f/lib -L/volume/conan_cache/giub_ri/.conan/data/catkin-tools/0.9.0/pypi/stable/package/e19ebe9a9867c1c00eb19479adaba9d411102a8c/lib -L/volume/conan_cache/giub_ri/.conan/data/catkin-pkg/1.0.0/pypi/stable/package/5eda30965d7a60fa3a1033f7940c94dc73878702/lib -L/volume/conan_cache/giub_ri/.conan/data/osrf-pycommon/2.0.2/pypi/stable/package/5eda30965d7a60fa3a1033f7940c94dc73878702/lib -L/opt/python/osl155-x86_64/python3/stable/2.2.1/lib"
+		},
+		{
+			"name" : "CMAKE_SHARED_LINKER_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of shared libraries during DEBUG builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_SHARED_LINKER_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of shared libraries during MINSIZEREL builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_SHARED_LINKER_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of shared libraries during RELEASE builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of shared libraries during RELWITHDEBINFO builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_SKIP_INSTALL_RPATH",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "If set, runtime paths are not added when installing shared libraries, but are added when building."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "NO"
+		},
+		{
+			"name" : "CMAKE_SKIP_RPATH",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "If set, runtime paths are not added when using shared libraries."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "NO"
+		},
+		{
+			"name" : "CMAKE_STATIC_LINKER_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of static libraries during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_STATIC_LINKER_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of static libraries during DEBUG builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_STATIC_LINKER_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of static libraries during MINSIZEREL builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_STATIC_LINKER_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of static libraries during RELEASE builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of static libraries during RELWITHDEBINFO builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_STRIP",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/strip"
+		},
+		{
+			"name" : "CMAKE_TAPI",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "CMAKE_TAPI-NOTFOUND"
+		},
+		{
+			"name" : "CMAKE_TOOLCHAIN_FILE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "No help, variable specified on the command line."
+				}
+			],
+			"type" : "UNINITIALIZED",
+			"value" : "/tmp/giub_ri/cissy/run/493481a4-dbc8-4c59-ab8b-244d0d267662/process/from_conanfile/conan_paths.cmake"
+		},
+		{
+			"name" : "CMAKE_UNAME",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "uname command"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/bin/uname"
+		},
+		{
+			"name" : "CMAKE_VERBOSE_MAKEFILE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "If this value is on, makefiles will be generated without the .SILENT directive, and all commands will be echoed to the console during the make.  This is useful for debugging only. With Visual Studio IDE projects all commands are done without /nologo."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "FALSE"
+		},
+		{
+			"name" : "COMPILER_SUPPORTS_CXX11",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Test COMPILER_SUPPORTS_CXX11"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_OpenCV",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding OpenCV"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6][v4.9.0()]"
+		},
+		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_OpenMP",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding OpenMP"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[TRUE][TRUE][c ][v4.5()]"
+		},
+		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_OpenMP_C",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding OpenMP_C"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[-fopenmp][/usr/lib64/gcc/x86_64-suse-linux/7/libgomp.so][v4.5()]"
+		},
+		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_OpenMP_CXX",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding OpenMP_CXX"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[-fopenmp][/usr/lib64/gcc/x86_64-suse-linux/7/libgomp.so][v4.5()]"
+		},
+		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Threads",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding Threads"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[TRUE][v()]"
+		},
+		{
+			"name" : "OpenCV_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for OpenCV."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib/cmake/opencv4"
+		},
+		{
+			"name" : "OpenMP_COMPILE_RESULT_CXX_fopenmp",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Result of TRY_COMPILE"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "TRUE"
+		},
+		{
+			"name" : "OpenMP_COMPILE_RESULT_C_fopenmp",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Result of TRY_COMPILE"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "TRUE"
+		},
+		{
+			"name" : "OpenMP_CXX_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "CXX compiler flags for OpenMP parallelization"
+				}
+			],
+			"type" : "STRING",
+			"value" : "-fopenmp"
+		},
+		{
+			"name" : "OpenMP_CXX_LIB_NAMES",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "CXX compiler libraries for OpenMP parallelization"
+				}
+			],
+			"type" : "STRING",
+			"value" : "gomp"
+		},
+		{
+			"name" : "OpenMP_CXX_SPEC_DATE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "CXX compiler's OpenMP specification date"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "201511"
+		},
+		{
+			"name" : "OpenMP_C_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "C compiler flags for OpenMP parallelization"
+				}
+			],
+			"type" : "STRING",
+			"value" : "-fopenmp"
+		},
+		{
+			"name" : "OpenMP_C_LIB_NAMES",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "C compiler libraries for OpenMP parallelization"
+				}
+			],
+			"type" : "STRING",
+			"value" : "gomp"
+		},
+		{
+			"name" : "OpenMP_C_SPEC_DATE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "C compiler's OpenMP specification date"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "201511"
+		},
+		{
+			"name" : "OpenMP_SPECTEST_CXX_",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Result of TRY_COMPILE"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "TRUE"
+		},
+		{
+			"name" : "OpenMP_SPECTEST_C_",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Result of TRY_COMPILE"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "TRUE"
+		},
+		{
+			"name" : "OpenMP_gomp_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to the gomp library for OpenMP"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib64/gcc/x86_64-suse-linux/7/libgomp.so"
+		},
+		{
+			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "linker supports push/pop state"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "TRUE"
+		},
+		{
+			"name" : "fast_akaze_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/giub_ri/packages/sidslam/Thirdparty/fast_akaze/fast_akaze/cmake-build-debug"
+		},
+		{
+			"name" : "fast_akaze_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "fast_akaze_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/giub_ri/packages/sidslam/Thirdparty/fast_akaze/fast_akaze"
+		}
+	],
+	"kind" : "cache",
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

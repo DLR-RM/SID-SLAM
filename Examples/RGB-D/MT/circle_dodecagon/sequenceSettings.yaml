@@ -1,0 +1,10 @@
+%YAML:1.0 
+
+sequenceSettings:
+   sequenceName: circle_dodecagon
+   cameraYAML: camerasID/id.yaml
+
+RGBD_TUM_dataset:
+   numRGB: 3517
+   numDepth: 3517
+   associationsTxt: associations.txt

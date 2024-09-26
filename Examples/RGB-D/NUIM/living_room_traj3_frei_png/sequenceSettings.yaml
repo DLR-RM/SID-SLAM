@@ -1,0 +1,9 @@
+%YAML:1.0 
+sequenceSettings:
+   sequenceName: living_room_traj3_frei_png
+   cameraYAML: camerasNUIM/nuim.yaml
+
+RGBD_TUM_dataset:
+   numRGB: 1241
+   numDepth: 1241
+   associationsTxt: associations.txt

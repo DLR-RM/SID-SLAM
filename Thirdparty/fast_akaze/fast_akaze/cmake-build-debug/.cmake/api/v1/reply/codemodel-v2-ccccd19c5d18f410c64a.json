@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "akaze",
+					"jsonFile" : "directory-akaze-Debug-b3596c8f7d96ec2c4a18.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "akaze",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "fast_akaze",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "akaze::@33a284016031a91be9b1",
+					"jsonFile" : "target-akaze-Debug-30d182fc551f5f8bded0.json",
+					"name" : "akaze",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_fast_akaze::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_fast_akaze-Debug-63cc0bb89793e2fed73f.json",
+					"name" : "test_fast_akaze",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/giub_ri/packages/sidslam/Thirdparty/fast_akaze/fast_akaze/cmake-build-debug",
+		"source" : "/home/giub_ri/packages/sidslam/Thirdparty/fast_akaze/fast_akaze"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

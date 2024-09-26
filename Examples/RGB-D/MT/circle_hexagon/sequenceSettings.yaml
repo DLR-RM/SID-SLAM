@@ -1,0 +1,10 @@
+%YAML:1.0 
+
+sequenceSettings:
+   sequenceName: circle_hexagon
+   cameraYAML: camerasID/id.yaml
+
+RGBD_TUM_dataset:
+   numRGB: 2244
+   numDepth: 2244
+   associationsTxt: associations.txt

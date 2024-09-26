@@ -1,0 +1,10 @@
+%YAML:1.0 
+
+sequenceSettings:
+   sequenceName: rgbd_dataset_freiburg1_teddy
+   cameraYAML: camerasTUM/freiburg1.yaml
+
+RGBD_TUM_dataset:
+   numRGB: 1419 
+   numDepth: 1418 
+   associationsTxt: rgbd_dataset_freiburg1_teddy/fr1_teddy.txt

@@ -1,0 +1,355 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "test_fast_akaze"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 23,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DTIXML_USE_STL -m64 -O2 -g -pthread -march=x86-64 -mfpmath=sse -msahf -mfxsr -mcx16 -mmmx -msse -msse2 -msse3 -mssse3 -msse4 -mpopcnt -pthread -march=x86-64 -mfpmath=sse -msahf -mfxsr -mcx16 -mmmx -msse -msse2 -msse3 -mssse3 -msse4 -mpopcnt -std=c++11 -fopenmp -g -O0 -fdiagnostics-color=always"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/include/opencv4"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "akaze::@33a284016031a91be9b1"
+		}
+	],
+	"id" : "test_fast_akaze::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-DTIXML_USE_STL -m64 -O2 -g -pthread -march=x86-64 -mfpmath=sse -msahf -mfxsr -mcx16 -mmmx -msse -msse2 -msse3 -mssse3 -msse4 -mpopcnt -pthread -march=x86-64 -mfpmath=sse -msahf -mfxsr -mcx16 -mmmx -msse -msse2 -msse3 -mssse3 -msse4 -mpopcnt -std=c++11 -fopenmp -g -O0",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-F/volume/conan_cache/giub_ri/.conan/data/python3-dist/2.2.1/tools/stable/package/f32b3b50dd563a02df1b35e98c90cec36423d368/Frameworks -m64 -L/volume/conan_cache/giub_ri/.conan/data/pangolin/0.9.1/3rdparty/stable/package/6c8cbd78feb3c7902eee79aede57a597ead6e2b1/lib -L/volume/conan_cache/giub_ri/.conan/data/ceres-solver/2.1.0/3rdparty/stable/package/f1b6a847b0b5e17b6ad36d16106b2a67705d012c/lib -L/volume/conan_cache/giub_ri/.conan/data/visual-lcd/1.5.0/moro/snapshot/package/c51c4ed812e1492d51cff3eb5e95ebc37d518861/lib -L/volume/conan_cache/giub_ri/.conan/data/ros_core/1.4.1/3rdparty/stable/package/dfc56f6663a878aad7ca79ac3af67159360b6d1b/lib -L/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib -L/volume/conan_cache/giub_ri/.conan/data/boost/1.66.0/3rdparty/stable/package/0951097891faa9d39de5771af51dcfcb1d49dfdc/lib -L/volume/conan_cache/giub_ri/.conan/data/console_bridge/0.4.4/3rdparty/stable/package/a059740f98a1247ec031a04c0fc4bf6c5a67a0fa/lib -L/volume/conan_cache/giub_ri/.conan/data/tinyxml/2.6.2/3rdparty/stable/package/1c6d59c8485ce7ba010ce9f8f3b718e1743ee65e/lib -L/volume/conan_cache/giub_ri/.conan/data/lz4/1.9.2/3rdparty/stable/package/7566a2e36235aaa167cd309b32e63e74379fa88a/lib -L/volume/conan_cache/giub_ri/.conan/data/log4cxx/0.10.0/3rdparty/stable/package/7566a2e36235aaa167cd309b32e63e74379fa88a/lib -L/volume/conan_cache/giub_ri/.conan/data/rospkg/1.4.0/pypi/stable/package/9617b349fafb3f9addb24517a8678125c3405ab1/lib -L/volume/conan_cache/giub_ri/.conan/data/poco/1.9.4/3rdparty/stable/package/cadd63bbdaec45074f45011064cede7725fb0d8e/lib -L/volume/conan_cache/giub_ri/.conan/data/defusedxml/0.6.0/pypi/stable/package/5eda30965d7a60fa3a1033f7940c94dc73878702/lib -L/volume/conan_cache/giub_ri/.conan/data/pycryptodomex/3.9.8/pypi/stable/package/5eda30965d7a60fa3a1033f7940c94dc73878702/lib -L/volume/conan_cache/giub_ri/.conan/data/gnupg/2.3.1/pypi/stable/package/5eda30965d7a60fa3a1033f7940c94dc73878702/lib -L/volume/conan_cache/giub_ri/.conan/data/catkin/0.8.1/3rdparty/stable/package/f3ba25740b99839924b50cc790bd62e6ef5124bf/lib -L/volume/conan_cache/giub_ri/.conan/data/eigen/3.3.7/3rdparty/stable/package/66732ee6185ec10ba26fe5f063a64aba30f472ea/lib -L/volume/conan_cache/giub_ri/.conan/data/glog/0.4.0/3rdparty/stable/package/cadd63bbdaec45074f45011064cede7725fb0d8e/lib -L/volume/conan_cache/giub_ri/.conan/data/gflags/2.2.2/3rdparty/stable/package/e096be2ccc3d13b81e10eae858042b5e6734f08c/lib -L/volume/conan_cache/giub_ri/.conan/data/openexr/2.5.3/3rdparty/stable/package/72efab4638fb46dbb3bb6c6e83c29693282f1981/lib -L/volume/conan_cache/giub_ri/.conan/data/tbb/2019.8.0/3rdparty/stable/package/3b9e4c5f9dd918c27eedc8a5e14627e1abc0cd76/lib -L/volume/conan_cache/giub_ri/.conan/data/gtest/1.10.0/3rdparty/stable/package/36f4faa8f490b828f0bb0af88ed9ae0a6a12248f/lib -L/volume/conan_cache/giub_ri/.conan/data/catkin-tools/0.9.0/pypi/stable/package/e19ebe9a9867c1c00eb19479adaba9d411102a8c/lib -L/volume/conan_cache/giub_ri/.conan/data/catkin-pkg/1.0.0/pypi/stable/package/5eda30965d7a60fa3a1033f7940c94dc73878702/lib -L/volume/conan_cache/giub_ri/.conan/data/osrf-pycommon/2.0.2/pypi/stable/package/5eda30965d7a60fa3a1033f7940c94dc73878702/lib -L/opt/python/osl155-x86_64/python3/stable/2.2.1/lib   -rdynamic",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "akaze/libakaze.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib/libopencv_stitching.so.4.9.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib/libopencv_alphamat.so.4.9.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib/libopencv_aruco.so.4.9.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib/libopencv_bgsegm.so.4.9.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib/libopencv_bioinspired.so.4.9.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib/libopencv_ccalib.so.4.9.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib/libopencv_dpm.so.4.9.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib/libopencv_face.so.4.9.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib/libopencv_freetype.so.4.9.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib/libopencv_fuzzy.so.4.9.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib/libopencv_hdf.so.4.9.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib/libopencv_hfs.so.4.9.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib/libopencv_img_hash.so.4.9.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib/libopencv_intensity_transform.so.4.9.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib/libopencv_line_descriptor.so.4.9.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib/libopencv_quality.so.4.9.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib/libopencv_rapid.so.4.9.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib/libopencv_reg.so.4.9.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib/libopencv_saliency.so.4.9.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib/libopencv_stereo.so.4.9.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib/libopencv_structured_light.so.4.9.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib/libopencv_superres.so.4.9.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib/libopencv_surface_matching.so.4.9.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib/libopencv_tracking.so.4.9.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib/libopencv_videostab.so.4.9.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib/libopencv_xfeatures2d.so.4.9.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib/libopencv_xobjdetect.so.4.9.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib/libopencv_xphoto.so.4.9.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib/libopencv_shape.so.4.9.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib/libopencv_highgui.so.4.9.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib/libopencv_datasets.so.4.9.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib/libopencv_ml.so.4.9.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib/libopencv_plot.so.4.9.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib/libopencv_phase_unwrapping.so.4.9.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib/libopencv_optflow.so.4.9.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib/libopencv_ximgproc.so.4.9.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib/libopencv_video.so.4.9.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib/libopencv_videoio.so.4.9.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib/libopencv_imgcodecs.so.4.9.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib/libopencv_objdetect.so.4.9.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib/libopencv_calib3d.so.4.9.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib/libopencv_features2d.so.4.9.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib/libopencv_flann.so.4.9.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib/libopencv_photo.so.4.9.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib/libopencv_imgproc.so.4.9.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/lib/libopencv_core.so.4.9.0",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "test_fast_akaze",
+	"nameOnDisk" : "test_fast_akaze",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "main.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

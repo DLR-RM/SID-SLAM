@@ -1,0 +1,10 @@
+%YAML:1.0 
+ 
+sequenceSettings:
+   sequenceName: rgbd_dataset_freiburg2_large_no_loop
+   cameraYAML: camerasTUM/freiburg2.yaml
+
+RGBD_TUM_dataset:
+   numRGB: 3359 
+   numDepth: 3356 
+   associationsTxt: rgbd_dataset_freiburg2_large_no_loop/fr2_large_no_loop.txt   

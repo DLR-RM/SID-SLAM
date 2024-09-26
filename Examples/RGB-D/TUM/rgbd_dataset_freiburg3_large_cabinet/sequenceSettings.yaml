@@ -1,0 +1,10 @@
+%YAML:1.0 
+  
+sequenceSettings:
+   sequenceName: rgbd_dataset_freiburg3_large_cabinet
+   cameraYAML: camerasTUM/freiburg3.yaml
+
+RGBD_TUM_dataset:
+   numRGB: 1011 
+   numDepth: 993 
+   associationsTxt: rgbd_dataset_freiburg3_large_cabinet/fr3_large_cabinet.txt

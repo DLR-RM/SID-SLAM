@@ -1,0 +1,36 @@
+%YAML:1.0
+
+pointSelector:
+   numPointsToSelectWithInformation: 64
+   numPointsToExtract: 128
+   minPhotoGradient: 105.0
+
+isKeyframe:
+   maxInformationLoss: 3
+
+visibility:
+   maxLambdaVisParam: 1.44
+   maxKeyframeDistance: 0.75
+   minVisiblePointsRatio: 0.75
+
+tracking:
+   tstudent2Probability: 95
+   minInliersRatio: 0.70
+
+windowOptimization:
+   numKeyframesWindowOptimization: 10
+   optimizeDephts: 0
+   tstudent2Probability: 95
+
+Features:
+   minResponse: 0.002 #0.002
+   numOctaves: 3
+   numSublevels: 1
+   numThreads: 3
+   matchingThreshold: 1.0
+   matchingDistance: 0.7
+   featureBias: 0.0
+
+Visualizer:
+   visualization: 1
+   saveSequence: 0

@@ -1,0 +1,9 @@
+%YAML:1.0 
+sequenceSettings:
+   sequenceName: sofa_1
+   cameraYAML: camerasETH/eth.yaml
+
+RGBD_TUM_dataset:
+   numRGB: 976
+   numDepth: 976
+   associationsTxt: sofa_1/sofa_1.txt

@@ -1,0 +1,10 @@
+%YAML:1.0 
+
+sequenceSettings:
+   sequenceName: planar_2
+   cameraYAML: camerasETH/eth.yaml
+
+RGBD_TUM_dataset:
+   numRGB: 630 
+   numDepth: 630 
+   associationsTxt: associated.txt

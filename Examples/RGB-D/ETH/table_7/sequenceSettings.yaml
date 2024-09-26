@@ -1,0 +1,9 @@
+%YAML:1.0 
+sequenceSettings:
+   sequenceName: table_7
+   cameraYAML: camerasETH/eth.yaml
+
+RGBD_TUM_dataset:
+   numRGB: 1675
+   numDepth: 1675
+   associationsTxt: associated.txt

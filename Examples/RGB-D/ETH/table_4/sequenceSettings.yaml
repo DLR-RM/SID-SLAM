@@ -1,0 +1,10 @@
+%YAML:1.0 
+sequenceSettings:
+   sequenceName: table_4
+   cameraYAML: camerasETH/eth.yaml
+
+RGBD_TUM_dataset:
+   numRGB: 1016
+   numDepth: 1016
+   associationsTxt: associations.txt
+   groundtruthTxt: badslama.txt

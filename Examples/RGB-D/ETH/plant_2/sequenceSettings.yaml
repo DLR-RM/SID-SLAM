@@ -1,0 +1,9 @@
+%YAML:1.0 
+sequenceSettings:
+   sequenceName: plant_2
+   cameraYAML: camerasETH/eth.yaml
+
+RGBD_TUM_dataset:
+   numRGB: 124
+   numDepth: 124
+   associationsTxt: plant_2/plant_2.txt

@@ -1,0 +1,28 @@
+%YAML:1.0
+%Camera
+
+camera0:
+   model: pinhole
+   fx: 908.479248046875
+   fy: 907.8419189453125
+   cx: 650.88916015625
+   cy: 364.6926574707031
+   w: 1280
+   h: 720
+   stereoBaseline: 0.12
+   depthConstant: 1000.0
+   associationThreshold: 0.51
+   RGB_hz: 30.0
+   depth_hz: 30.0
+
+   maxPhotoDef2: 1.4
+   minPhotoDef2: 0.6
+   ctPhotoDef2: 1.0
+   ccPhotoDef2: 1.0
+   imgPhotoCov: 2.0
+
+   maxGeoDef2: 1.4
+   minGeoDef2: 0.6
+   ctGeoDef2: 0.1
+   ccGeoDef2: 0.1
+   imgGeoCov: 0.2

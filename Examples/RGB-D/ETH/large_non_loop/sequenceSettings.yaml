@@ -1,0 +1,9 @@
+%YAML:1.0 
+sequenceSettings:
+   sequenceName: large_non_loop
+   cameraYAML: camerasETH/eth.yaml
+
+RGBD_TUM_dataset:
+   numRGB: 1727
+   numDepth: 1727 
+   associationsTxt: large_non_loop/large_non_loop.txt

@@ -1,0 +1,10 @@
+%YAML:1.0 
+
+sequenceSettings:
+   sequenceName: square_01
+   cameraYAML: camerasID/id.yaml
+
+RGBD_TUM_dataset:
+   numRGB: 5544
+   numDepth: 5544
+   associationsTxt: associations.txt

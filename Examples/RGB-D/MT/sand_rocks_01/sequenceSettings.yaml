@@ -1,0 +1,10 @@
+%YAML:1.0 
+
+sequenceSettings:
+   sequenceName: sand_rocks_01
+   cameraYAML: camerasID/id.yaml
+
+RGBD_TUM_dataset:
+   numRGB: 3445
+   numDepth: 3445
+   associationsTxt: associations.txt

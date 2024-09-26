@@ -1,0 +1,10 @@
+%YAML:1.0 
+
+sequenceSettings:
+   sequenceName: lru_01
+   cameraYAML: camerasID/id.yaml
+
+RGBD_TUM_dataset:
+   numRGB: 2943
+   numDepth: 2943
+   associationsTxt: associations.txt

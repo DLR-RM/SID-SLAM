@@ -1,0 +1,28 @@
+%YAML:1.0 
+%Freiburg 3
+
+camera0:
+   model: pinhole
+   fx: 726.28741455078
+   fy: 726.28741455078
+   cx: 354.6496887207 # 354.6496887207
+   cy: 186.46566772461 #186.46566772461
+   w: 739
+   h: 458
+   stereoBaseline: 0.08
+   depthConstant: 5000.0
+   associationThreshold: 0.51
+   RGB_hz: 30.0
+   depth_hz: 30.0
+
+   maxPhotoDef2: 100.4
+   minPhotoDef2: 0.006
+   ctPhotoDef2: 25.0
+   ccPhotoDef2: 25.0
+   imgPhotoCov: 2.5
+
+   maxGeoDef2: 100.4
+   minGeoDef2: 0.006
+   ctGeoDef2: 0.1
+   ccGeoDef2: 0.1
+   imgGeoCov: 0.2

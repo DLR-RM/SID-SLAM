@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>idnav</name>
+  <version>0.0.0</version>
+  <description>SID-SLAM: Semi-Direct Information Driven RGB-D SLAM</description>
+
+  <maintainer email="riccardo.giubilato@dlr.de">Riccardo Giubilato</maintainer>
+  <license>BSD</license>
+  <url type="website"></url>
+  <author email="riccardo.giubilato@dlr.de">Riccardo Giubilato</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+
+  <exec_depend>roscpp</exec_depend>
+</package>

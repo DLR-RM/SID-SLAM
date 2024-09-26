@@ -1,0 +1,10 @@
+%YAML:1.0 
+  
+sequenceSettings:
+   sequenceName: rgbd_dataset_freiburg3_structure_texture_near_validation
+   cameraYAML: camerasTUM/freiburg3.yaml
+
+RGBD_TUM_dataset:
+   numRGB: 1067 
+   numDepth: 1051 
+   associationsTxt: associations.txt

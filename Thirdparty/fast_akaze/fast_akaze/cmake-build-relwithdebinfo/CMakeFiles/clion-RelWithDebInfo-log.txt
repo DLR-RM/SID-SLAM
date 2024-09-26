@@ -1,0 +1,30 @@
+/opt/CLion/clion-2023.3.2/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_MAKE_PROGRAM=/opt/CLion/clion-2023.3.2/bin/ninja/linux/x64/ninja -DCMAKE_PREFIX_PATH=/tmp/giub_ri/cissy/run/493481a4-dbc8-4c59-ab8b-244d0d267662/process/from_conanfile -DCMAKE_TOOLCHAIN_FILE=/tmp/giub_ri/cissy/run/493481a4-dbc8-4c59-ab8b-244d0d267662/process/from_conanfile/conan_paths.cmake -G Ninja -S /home/giub_ri/packages/sidslam/Thirdparty/fast_akaze/fast_akaze -B /home/giub_ri/packages/sidslam/Thirdparty/fast_akaze/fast_akaze/cmake-build-relwithdebinfo
+CMake Deprecation Warning at CMakeLists.txt:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- OpenCV library status:
+--     version: 4.9.0
+--     libraries: opencv_calib3d;opencv_core;opencv_features2d;opencv_flann;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_stitching;opencv_video;opencv_videoio;opencv_alphamat;opencv_aruco;opencv_bgsegm;opencv_bioinspired;opencv_ccalib;opencv_datasets;opencv_dpm;opencv_face;opencv_freetype;opencv_fuzzy;opencv_hdf;opencv_hfs;opencv_img_hash;opencv_intensity_transform;opencv_line_descriptor;opencv_optflow;opencv_phase_unwrapping;opencv_plot;opencv_quality;opencv_rapid;opencv_reg;opencv_saliency;opencv_shape;opencv_stereo;opencv_structured_light;opencv_superres;opencv_surface_matching;opencv_tracking;opencv_videostab;opencv_xfeatures2d;opencv_ximgproc;opencv_xobjdetect;opencv_xphoto
+--     include path: /volume/conan_cache/giub_ri/.conan/data/opencv/4.9.0/3rdparty/unstable/package/ca04e94a2870386cd14b7f4f0cb10613e95a79c6/include/opencv4
+CMake Deprecation Warning at akaze/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_TOOLCHAIN_FILE
+
+
+-- Build files have been written to: /home/giub_ri/packages/sidslam/Thirdparty/fast_akaze/fast_akaze/cmake-build-relwithdebinfo

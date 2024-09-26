@@ -1,0 +1,10 @@
+%YAML:1.0 
+ 
+sequenceSettings:
+   sequenceName: rgbd_dataset_freiburg2_desk
+   cameraYAML: camerasTUM/freiburg2.yaml
+
+RGBD_TUM_dataset:
+   numRGB: 2965 
+   numDepth: 2964 
+   associationsTxt: associations.txt

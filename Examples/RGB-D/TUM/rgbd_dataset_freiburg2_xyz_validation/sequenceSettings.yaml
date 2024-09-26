@@ -1,0 +1,10 @@
+%YAML:1.0 
+
+sequenceSettings:
+   sequenceName: rgbd_dataset_freiburg2_xyz_validation
+   cameraYAML: camerasTUM/freiburg2.yaml
+
+RGBD_TUM_dataset:
+   numRGB: 3733 
+   numDepth: 3730 
+   associationsTxt: rgbd_dataset_freiburg2_xyz_validation/fr2_xyz_val.txt

@@ -1,0 +1,10 @@
+%YAML:1.0 
+
+sequenceSettings:
+   sequenceName: ardea_01
+   cameraYAML: ../camerasID/id.yaml
+
+RGBD_TUM_dataset:
+   numRGB: 3253
+   numDepth: 3253
+   associationsTxt: associations.txt

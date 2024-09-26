@@ -1,0 +1,9 @@
+%YAML:1.0 
+sequenceSettings:
+   sequenceName: plant_scene_1
+   cameraYAML: camerasETH/eth.yaml
+
+RGBD_TUM_dataset:
+   numRGB: 740 
+   numDepth: 740
+   associationsTxt: plant_scene_1/plant_scene_1.txt

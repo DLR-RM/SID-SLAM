@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Test Results">
+      <UniqueIdentifier>{228a8dc6-b80b-498c-9c71-2ec714e7ec51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AKAZE">
+      <UniqueIdentifier>{5e7b21f8-a428-42d8-ba2d-0b1965ebb21a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AKAZE">
+      <UniqueIdentifier>{21ca4740-2096-44ed-9508-a19c9f787ace}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="barter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fps_stats.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="akaze\AKAZEConfig.h">
+      <Filter>Header Files\AKAZE</Filter>
+    </ClInclude>
+    <ClInclude Include="akaze\AKAZEFeatures.h">
+      <Filter>Header Files\AKAZE</Filter>
+    </ClInclude>
+    <ClInclude Include="akaze\fed.h">
+      <Filter>Header Files\AKAZE</Filter>
+    </ClInclude>
+    <ClInclude Include="akaze\nldiffusion_functions.h">
+      <Filter>Header Files\AKAZE</Filter>
+    </ClInclude>
+    <ClInclude Include="akaze\TEvolution.h">
+      <Filter>Header Files\AKAZE</Filter>
+    </ClInclude>
+    <ClInclude Include="akaze\utils.h">
+      <Filter>Header Files\AKAZE</Filter>
+    </ClInclude>
+    <ClInclude Include="features2d_akaze2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="akaze\akaze.cpp">
+      <Filter>Source Files\AKAZE</Filter>
+    </ClCompile>
+    <ClCompile Include="akaze\AKAZEFeatures.cpp">
+      <Filter>Source Files\AKAZE</Filter>
+    </ClCompile>
+    <ClCompile Include="akaze\fed.cpp">
+      <Filter>Source Files\AKAZE</Filter>
+    </ClCompile>
+    <ClCompile Include="akaze\nldiffusion_functions.cpp">
+      <Filter>Source Files\AKAZE</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\perf_tests\Perf Test Guideline.txt">
+      <Filter>Test Results</Filter>
+    </Text>
+    <Text Include="..\perf_tests\R0 - OpenCV3 included AKAZE.txt">
+      <Filter>Test Results</Filter>
+    </Text>
+    <Text Include="..\perf_tests\R1 - AKAZE2 with the default setting.txt">
+      <Filter>Test Results</Filter>
+    </Text>
+    <Text Include="..\perf_tests\R2 - AKAZE2 with VS2013 compiler option tweaking.txt">
+      <Filter>Test Results</Filter>
+    </Text>
+    <Text Include="..\perf_tests\R3 - Make AKAZEFeature persistent.txt">
+      <Filter>Test Results</Filter>
+    </Text>
+    <Text Include="..\perf_tests\R4 - Change Mat zeros to Mat create.txt">
+      <Filter>Test Results</Filter>
+    </Text>
+    <Text Include="..\perf_tests\R5 - Remove temporary variables on heap.txt">
+      <Filter>Test Results</Filter>
+    </Text>
+    <Text Include="..\perf_tests\R6 - Optimize the memory copies.txt">
+      <Filter>Test Results</Filter>
+    </Text>
+    <Text Include="..\perf_tests\R7 - Make heavy loops more auto-vectorizer friendly.txt">
+      <Filter>Test Results</Filter>
+    </Text>
+    <Text Include="..\perf_tests\R8.1 - Refactor compute_k_percentile.txt">
+      <Filter>Test Results</Filter>
+    </Text>
+    <Text Include="..\perf_tests\R8.2 - Refactor nld_step_scalar.txt">
+      <Filter>Test Results</Filter>
+    </Text>
+    <Text Include="..\perf_tests\R8.3 - Refactor Find_Scale_Space_Extrema.txt">
+      <Filter>Test Results</Filter>
+    </Text>
+    <Text Include="..\perf_tests\R8.4 - Refactor Do_Subpixel_Refinement.txt">
+      <Filter>Test Results</Filter>
+    </Text>
+    <Text Include="..\perf_tests\R8.5 - Refactor Compute_Main_Orientation.txt">
+      <Filter>Test Results</Filter>
+    </Text>
+    <Text Include="..\perf_tests\R8.6 - Refactor Get_MLDB_Descriptor_Subset.txt">
+      <Filter>Test Results</Filter>
+    </Text>
+    <Text Include="..\perf_tests\R8.7 - Refactor Compute_Determinant_Hessian_Response.txt">
+      <Filter>Test Results</Filter>
+    </Text>
+    <Text Include="..\perf_tests\R8.8 - Refactor compute_k_percentile (revisited).txt">
+      <Filter>Test Results</Filter>
+    </Text>
+    <Text Include="..\perf_tests\R9.1 - Remove OpenMP spin wait.txt">
+      <Filter>Test Results</Filter>
+    </Text>
+    <Text Include="..\perf_tests\R9.2 - Parallelize Compute_Determinant_Hessian_Response.txt">
+      <Filter>Test Results</Filter>
+    </Text>
+    <Text Include="..\perf_tests\R9.3 - Parallelize Create_Nonlinear_Scale_Space.txt">
+      <Filter>Test Results</Filter>
+    </Text>
+    <Text Include="..\perf_tests\R9.4 - Tune the stride size of Compute_Descriptors.txt">
+      <Filter>Test Results</Filter>
+    </Text>
+    <Text Include="..\perf_tests\R9.5 - Parallelize Find_Scale_Space_Extrema.txt">
+      <Filter>Test Results</Filter>
+    </Text>
+    <Text Include="..\perf_tests\Profiler Results - R9.5.txt">
+      <Filter>Test Results</Filter>
+    </Text>
+    <Text Include="..\perf_tests\R10 - Vary the number of threads.txt">
+      <Filter>Test Results</Filter>
+    </Text>
+    <Text Include="..\perf_tests\R11 - Combine sepFilter2D and scaling.txt">
+      <Filter>Test Results</Filter>
+    </Text>
+    <Text Include="..\perf_tests\Profiler Results - R11.txt">
+      <Filter>Test Results</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.md" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+%YAML:1.0 
+ 
+sequenceSettings:
+   sequenceName: rgbd_dataset_freiburg2_coke
+   cameraYAML: camerasTUM/freiburg2.yaml
+
+RGBD_TUM_dataset:
+   numRGB: 2521 
+   numDepth: 2519 
+   associationsTxt: rgbd_dataset_freiburg2_coke/fr2_coke.txt   

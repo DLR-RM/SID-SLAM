@@ -1,0 +1,9 @@
+%YAML:1.0 
+sequenceSettings:
+   sequenceName: mannequin_face_2
+   cameraYAML: camerasETH/eth.yaml
+
+RGBD_TUM_dataset:
+   numRGB: 444
+   numDepth: 444
+   associationsTxt: mannequin_face_2/mannequin_face_2.txt

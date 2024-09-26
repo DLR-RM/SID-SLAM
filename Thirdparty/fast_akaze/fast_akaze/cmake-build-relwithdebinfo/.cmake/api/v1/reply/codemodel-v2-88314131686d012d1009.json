@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-RelWithDebInfo-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "akaze",
+					"jsonFile" : "directory-akaze-RelWithDebInfo-b3596c8f7d96ec2c4a18.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "akaze",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "fast_akaze",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "akaze::@33a284016031a91be9b1",
+					"jsonFile" : "target-akaze-RelWithDebInfo-9bc155ae209258d149b4.json",
+					"name" : "akaze",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_fast_akaze::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_fast_akaze-RelWithDebInfo-92aca65512606ca50bee.json",
+					"name" : "test_fast_akaze",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/giub_ri/packages/sidslam/Thirdparty/fast_akaze/fast_akaze/cmake-build-relwithdebinfo",
+		"source" : "/home/giub_ri/packages/sidslam/Thirdparty/fast_akaze/fast_akaze"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

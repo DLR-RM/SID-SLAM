@@ -1,0 +1,18 @@
+@PACKAGE_INIT@
+
+set_and_check(LCDetector_INCLUDE_DIR "@PACKAGE_INCLUDE_INSTALL_DIR@")
+set_and_check(LCDetector_CMAKE_DIR "@PACKAGE_CMAKE_INSTALL_DIR@")
+
+if (NOT TARGET LCDetector::LCDetector)
+  include("${LCDetector_CMAKE_DIR}/LCDetectorTargets.cmake")
+endif()
+
+set(LCDetector_LIBRARIES LCDetector::LCDetector)
+
+include(CMakeFindDependencyMacro)
+find_dependency(OpenCV)
+find_dependency(Eigen3)
+
+if (NOT LCDetector_FIND_QUIETLY)
+  message(STATUS "Found LCDetector: ${PACKAGE_PREFIX_DIR}")
+endif()
